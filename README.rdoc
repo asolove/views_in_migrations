@@ -1,6 +1,11 @@
-= views_in_migrations
+= Views In Migrations
 
-Description goes here.
+Allows you to define MySQL views in your migrations, and correctly serializes them
+back to your schema file. 
+
+= Running the Specs
+
+1. adjust the username and password in views_in_migrations_spec.rb to match your system.
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +19,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 asolove. See LICENSE for details.
+Copyright (c) 2010 ASEE. See LICENSE for details.
