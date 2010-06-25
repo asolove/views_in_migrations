@@ -1,11 +1,13 @@
 = Views In Migrations
 
-Allows you to define MySQL views in your migrations, and correctly serializes them
-back to your schema file. 
+Use MySQL views to back ActiveRecord models, and define them in your migrations.
+
+ViewsInMigrations provides helper methods for using MySQL views behind ActiveRecord models. It helps you define, modify, test, and refresh your views. And it also handles correctly dumping the definitions to schema.rb.
+
 
 = Running the Specs
 
-1. adjust the username and password in views_in_migrations_spec.rb to match your system.
+1. adjust the database connection in spec_helper.rb to match your system.
 
 == Note on Patches/Pull Requests
  
